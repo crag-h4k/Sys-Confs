@@ -7,4 +7,6 @@ pacakages +="net-tools curl "
 
 apt update -y
 apt dist-upgrade -y
+apt install -y netselect-apt
+netselect-apt
 apt install -y $packages
