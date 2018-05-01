@@ -1,4 +1,4 @@
-## [Chocolatey Package Manager](https://chocolatey.org/install)
+#### [Chocolatey Package Manager](https://chocolatey.org/install)
 `PS > ` `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 
 ##### ps: choco packages
@@ -13,7 +13,7 @@ Settings -> Update and Security -> For developers "Developer mode"
 
 `PS > ` `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 
-#### [Debian Stretch(microsoft store):](https://www.microsoft.com/store/productId/9MSVKQC78PK6)
+#### [Debian Stretch(microsoft store)](https://www.microsoft.com/store/productId/9MSVKQC78PK6)
 
 `PS > ` `bash`
 
