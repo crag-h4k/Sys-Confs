@@ -1,7 +1,5 @@
 ## [Chocolatey Package Manager](https://chocolatey.org/install)
-#### ps: 
-
-`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+`PS > ` `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 
 ##### ps: choco packages
 
