@@ -5,7 +5,7 @@
 
 ##### ps: Packages through chocolatey: Slack, Spotify, Chrome, Battle.net, windirstat
 
-<choco install slack spotify googlechrome battle.net windirstat>
+<choco install slack spotify googlechrome battle.net windirstat vcxsrv>
 
 ## WSL - https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
