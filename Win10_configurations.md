@@ -11,15 +11,11 @@
 
 Settings -> Update and Security -> For developers "Developer mode"
 
-#### ps:
-
-`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+`PS > ` `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 
 #### [Debian Stretch(microsoft store):](https://www.microsoft.com/store/productId/9MSVKQC78PK6)
 
-#### ps:
-
-`bash`
+`PS > ` `bash`
 
 ## Manual Install Apps
 
