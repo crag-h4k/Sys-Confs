@@ -4,7 +4,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/danemorgan/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
-ZSH_THEME="sunaku" #sunaku,arrow,sunaku
+ZSH_THEME="sunaku" #sunaku,arrow,
 plugins=(
   git
   macos
@@ -36,16 +36,6 @@ alias brewdir="cd /usr/local/Cellar"
 alias brologs="cd /usr/local/var/logs"
 alias "cd.."="cd .."
 alias msfconsole="/opt/metasploit-framework/bin/msfconsole"
-#IT350 stuff
-alias db="cd /Users/danemorgan/School/2018_Winter/IT350/Website"
-alias live="bash ~/pysite/startserver.sh"
-alias manage="python3 manage.py"
-alias ssh_db="ssh webadmin@192.168.50.39"
-#it350 stuff ends here
-
-#it366 stuff
-alias ssh_vpn="ssh dinoadmin@192.168.242.91"
-#it366 ends here
 
 #path stuff here
 export HISTTIMEFORMAT="%d/%m/%y %T"
