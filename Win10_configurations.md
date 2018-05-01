@@ -3,7 +3,7 @@
 
 <Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))>
 
-##### ps: Packages through chocolatey: Slack, Spotify, Chrome, Battle.net, windirstat
+##### ps: choco packages
 
 <choco install slack spotify googlechrome battle.net windirstat vcxsrv>
 
