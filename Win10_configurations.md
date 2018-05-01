@@ -25,10 +25,6 @@ https://www.microsoft.com/store/productId/9MSVKQC78PK6
 
 <bash>
 
-#### bash:
-
-<sudo bash deb_packages.sh>
-
 ## Manual Install Apps
 
 #### Global Protect
