@@ -2,7 +2,7 @@
 
 packages="sudo build-essential make gcc g++ "
 packages+="python3 python3-dev python3-pip libssl-dev libffi-dev "
-packages+="vim git zsh tmux yakuake"
+packages+="vim git zsh tmux"
 pacakages +="net-tools curl "
 
 apt update -y
