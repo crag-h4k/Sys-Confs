@@ -11,3 +11,8 @@ cd /root/bro
 make
 make install
 echo "export PATH=/usr/local/bro/bin:$PATH" >> /home/$SUDO_USER/.zshrc
+
+echo "REMEMBER TO MAKE SURE INTERFACE IS CORRECT AT"
+echo "/usr/local/bro/etc/node.cfg"
+echo "REMEMBER TO MAKE SURE NETWORKS ARE CORRECT AT"
+echo "/usr/local/bro/etc/network.cfg"
