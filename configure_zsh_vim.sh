@@ -14,3 +14,4 @@ cp /home/$SUDO_USER/Sys-Configurations/.vimrc /home/$SUDO_USER/.vimrc
 cp -r /home/$SUDO_USER/Sys-Configurations/vim /home/$SUDO_USER/.vim
 ln -s /home/$SUDO_USER/.vim /root/.vim
 ln /home/$SUDO_USER/.vimrc /root/.vimrc
+su $SUDO_USER
