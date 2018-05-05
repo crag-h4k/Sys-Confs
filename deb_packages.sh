@@ -5,7 +5,7 @@ packages+="python3 python3-dev python3-pip libssl-dev libffi-dev "
 packages+="vim git zsh tmux"
 pacakages+="net-tools curl "
 
-bro_depen+="python-dev swig zlib1g-dev libgeoIP-dev flex bison libpcap-dev"
+bro_depen+="python-dev swig zlib1g-dev libgeoip-dev flex bison libpcap-dev"
 
 
 apt update -y
