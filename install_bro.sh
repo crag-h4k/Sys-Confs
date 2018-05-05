@@ -10,4 +10,4 @@ cd /root/bro
 ./configure
 make
 make install
-echo "export PATH=/usr/local/bro/bin:$PATH" >> ~/home/$SUDO_USER/.zshrc
+echo "export PATH=/usr/local/bro/bin:$PATH" >> /home/$SUDO_USER/.zshrc
