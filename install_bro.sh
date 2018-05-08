@@ -1,4 +1,4 @@
-#~/usr/bin/bash
+#!/usr/bin/bash
 bro_depen="cmake make gcc g++ flex bison libpcap-dev  libssl-dev libssl1.0-dev python-dev swig zlib1g-dev"
 
 apt update -y
