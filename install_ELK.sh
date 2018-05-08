@@ -9,4 +9,4 @@ apt update
 apt install elasticsearch logstash kibana filebeat
 
 echo "Remember to enable these services via command"
-encho "systemctl enable elasticsearch"
+echo "systemctl enable elasticsearch"
