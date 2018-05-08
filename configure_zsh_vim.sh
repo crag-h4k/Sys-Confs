@@ -1,11 +1,12 @@
 #!/usr/bin/bash
 #zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-ln -s /home/$SUDO_USER/.oh-my-zsh /root/.oh-my-zsh
 cp /home/$SUDO_USER/Sys-Configurations/.zshrc /home/$SUDO_USER/.zshrc
-sudo ln /home/$SUDO_USER/.zshrc /root/.zshrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 source /home/$SUDO_USER/.zshrc
+
 su root
+ln -s /home/$SUDO_USER/.oh-my-zsh /root/.oh-my-zsh
+ln /home/$SUDO_USER/.zshrc /root/.zshrc
 sh -c $(which zsh)
 source /root/.zshrc
 
