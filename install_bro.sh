@@ -1,11 +1,11 @@
 #!/usr/bin/bash
-bro_depen="cmake make gcc g++ flex bison libpcap-dev  libssl-dev libssl1.0-dev python-dev swig zlib1g-dev"
-
+bro_depen="cmake make gcc g++ flex bison libpcap-dev libssl-dev python-dev swig zlib1g-dev"
+# may need to install libssl1.0-dev  for bro
 apt update -y
 apt upgrade -y 
 apt install -y $bro_depen
 
-git clone --recursive git://git.bro.org/bro /root/
+git clone --recursive git://git.bro.org/bro /root/bro
 cd /root/bro
 ./configure
 make
