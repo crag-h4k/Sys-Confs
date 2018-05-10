@@ -1,0 +1,17 @@
+disk-inventory-x
+etcher
+fing
+firefox-nightly
+google-chrome
+haskell-platform
+iterm2
+java
+java8
+powershell
+real-vnc
+slack
+spectacle
+spotify
+transmission
+vlc
+wireshark
