@@ -1,6 +1,7 @@
 "deadlift1226 vim config
 "test
 syntax enable
+syntax on
 set number
 set mouse+=a
 
