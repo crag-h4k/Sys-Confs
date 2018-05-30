@@ -1,6 +1,6 @@
 sudo apt install -y build-essential cmake pkg-config libboost-all-dev libssl-dev libunbound-dev libminiupnpc-dev liblzma-dev liblnds-dev libexpat1-dev libgtest-dev doxygen graphviz
 sudo apt update
-mkdir ~/crypto && cd crypto
+mkdir ~/crypto && cd ~/crypto
 git clone https://github.com/electroneum/electroneum.git
 cd electroneum
 make 
