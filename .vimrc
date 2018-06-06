@@ -1,7 +1,6 @@
 "deadlift1226 vim config
 "test
 syntax enable
-syntax on
 set number
 set mouse+=a
 
@@ -34,6 +33,14 @@ set noerrorbells
 set novisualbell
 set t_vb=
 set tm=500
+
+"shortcuts and mappings
+nmap db <ESC>:+,$d
+
+" typos
+command! Q q
+command! W w
+command! WQ wq
 
 "Plug-ins
 "supertab.vim -tab complete 
