@@ -5,7 +5,6 @@
 "         (... also without a clue about writing VIM syntax files
 "           thanks python.vim & c.vim!)
 " ---------------------------------------------------------------------
-
 if version < 600
   syntax clear
 elseif exists("b:current_syntax")
@@ -109,7 +108,4 @@ if version >= 508 || !exists("did_bro_syn_inits")
   delcommand HiLink
 endif
 
-let b:current_syntax = "bro"
-if has("autocmd")
-  au  BufNewFile,BufRead *.bro set filetype=bro
-endif
+

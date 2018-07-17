@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/var/log/elasticsearch'
+let g:netrw_dirhist_2='/opt'
+let g:netrw_dirhist_3='/etc/resolvconf'
+let g:netrw_dirhist_4='/etc/profile.d'
+let g:netrw_dirhist_5='/var/www/html'
+let g:netrw_dirhist_6='/usr/lib/systemd/system'
