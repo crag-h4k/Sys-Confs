@@ -1,1 +1,0 @@
-/home/deadlift/.vim
