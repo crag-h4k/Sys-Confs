@@ -1,8 +1,26 @@
 "deadlift1226 vim config
 "test
-syntax enable
+set nocompatible
+"syntax on
+filetype plugin indent on
+
 set number
 set mouse+=a
+
+"for folding
+"""""fold and unfold all under cursor 
+nnoremap <Space> za
+vnoremap <Space> za
+"""""Refocus fold
+nnoremap ,z zMzvzz
+"""""unfold top regardless of cursor location
+nnoremap Z zCzO
+set foldmethod=indent
+set foldnestmax=10
+set foldlevel=0
+let any_fold_activate=1
+au BufWinLeave * mkview
+au BufWinEnter * silent loadview
 
 "security, remember :X to encrypt, to remove passwd :X and leave blank
 setlocal cm=blowfish2 
@@ -14,15 +32,15 @@ set wildmenu
 set wildmode=list:longest,full
 
 "proper tab
-set smarttab
-set shiftwidth=4
-set tabstop=4
-
+"set smarttab
+"set shiftwidth=4
+"set tabstop=4
+"set softtabstop=4
+"set expandtab
 "proper indent
 set ai
 set si
 set wrap
-
 "no swapfile or backup, be careful ;)
 set noswapfile
 set nobackup
@@ -35,8 +53,8 @@ set tm=500
 
 "shortcuts and mappings
 nmap db <ESC>:+,$d
-nmap fr <ESC>:%s///gc
 
+nmap fr <ESC>:%s///gc
 " typos
 command! Q q
 command! W w
@@ -44,6 +62,19 @@ command! WQ wq
 command! Wq wq
 
 "Plug-ins
-"supertab.vim -tab complete 
 let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle 
 set updatetime=500
+"colors
+set t_Co=256
+hi Normal ctermfg=42
+hi LineNr ctermfg=68
+hi Folded ctermfg=16
+hi Function ctermfg=105
+hi NonText ctermfg=93
+hi Comment ctermfg=23
+hi Statement ctermfg=87
+hi Preproc ctermfg=183
+syntax enable
+"hi Type ctermfg=16
+"hi Constant ctermfg=128
+"hi  ctermfg=
