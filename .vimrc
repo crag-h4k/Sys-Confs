@@ -35,7 +35,7 @@ set tm=500
 
 "shortcuts and mappings
 nmap db <ESC>:+,$d
-nmap fr <ESC>:%s/foo/bar/gc
+nmap fr <ESC>:%s///gc
 
 " typos
 command! Q q
