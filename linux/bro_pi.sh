@@ -1,7 +1,6 @@
 #!/usr/bin/bash
-from os import system
 
-#run isntall_pf_ring() first
+#run install_pf_ring() first
 git clone https://github.com/ntop/PF_RING.git
 cd PF_RING/kernel
 make && insmod ./pf_ring.ko
