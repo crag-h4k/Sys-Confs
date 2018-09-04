@@ -43,3 +43,5 @@ export HISTTIMEFORMAT="%d/%m/%y %T"
 export PATH="/usr/local/sbin:$PATH"
 
 export PATH
+
+cat /home/$SUDO_USER/Sys-Confs/boo_small.txt
