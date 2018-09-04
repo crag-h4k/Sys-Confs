@@ -14,7 +14,7 @@ source $ZSH/oh-my-zsh.sh
 
 #aliases
 # application aliases
-alias "jl="jupyter-lab"
+alias "jl"="jupyter-lab"
 alias "venv"="source ./venv/bin/activate"
 alias "sourcez"="source ~/.zshrc"
 
