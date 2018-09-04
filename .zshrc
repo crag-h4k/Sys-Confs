@@ -4,7 +4,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 ZSH_DISABLE_COMPFIX=true
-export ZSH=/home/$SUDO_USER/.oh-my-zsh
+export ZSH=/home/r0ll0/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 ZSH_THEME="sunaku" #sunaku,arrow,
 plugins=(
@@ -14,7 +14,7 @@ source $ZSH/oh-my-zsh.sh
 
 #aliases
 # application aliases
-alias "jl="jupyter-lab"
+alias "jl"="jupyter-lab"
 alias "venv"="source ./venv/bin/activate"
 alias "sourcez"="source ~/.zshrc"
 
@@ -44,5 +44,5 @@ export PATH="/usr/local/sbin:$PATH"
 
 export PATH
 
-cat /home/$SUDO_USER/Sys-Confs/boo_small.txt
-echo "Welcome to " && hostname
+cat /home/r0ll0/Sys-Confs/boo_small.txt
+echo "\n" &&  hostname && hostname -I
