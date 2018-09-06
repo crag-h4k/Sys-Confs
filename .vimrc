@@ -18,7 +18,7 @@ nnoremap Z zCzO
 set foldmethod=indent
 set foldnestmax=10
 set foldlevel=0
-let any_fold_activate=0
+"let any_fold_activate=1
 au BufWinLeave * mkview
 au BufWinEnter * silent loadview
 
@@ -32,11 +32,11 @@ set wildmenu
 set wildmode=list:longest,full
 
 "proper tab
-"set smarttab
-"set shiftwidth=4
-"set tabstop=4
-"set softtabstop=4
-"set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set expandtab
 "proper indent
 set ai
 set si
