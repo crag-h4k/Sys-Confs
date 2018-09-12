@@ -18,7 +18,7 @@ nnoremap Z zCzO
 set foldmethod=indent
 set foldnestmax=10
 set foldlevel=0
-let any_fold_activate=0
+"let any_fold_activate=0
 au BufWinLeave * mkview
 au BufWinEnter * silent loadview
 
