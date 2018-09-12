@@ -22,7 +22,7 @@ alias "sourcez"="source ~/.zshrc"
 # change directory shortcuts
 alias "brologs"="cd /usr/local/var/logs"
 alias "cd.."="cd .."
-
+alias "screen"="byobu-screen"
 #path stuff here
 
 export HISTTIMEFORMAT="%d/%m/%y %T"

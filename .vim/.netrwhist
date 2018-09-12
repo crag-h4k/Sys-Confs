@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/deadlift/get_anime/log'
+let g:netrw_dirhist_2='/home/deadlift/get_anime/series_urls'
+let g:netrw_dirhist_3='/home/deadlift/easy_utils/.git'
+let g:netrw_dirhist_4='/home/deadlift/easy_utils/easy_utils'
