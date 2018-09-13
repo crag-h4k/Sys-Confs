@@ -37,8 +37,8 @@ URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 
 
 URxvt*buffered: false
-URxvt.font:xft:hack-10
-URxvt.boldFont:xft:hack-10
+URxvt.font:xft:hack-18
+URxvt.boldFont:xft:hack-18
 URxvt.letterSpace: 0
 
 urxvt*depth: 32
