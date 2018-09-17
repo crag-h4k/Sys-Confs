@@ -33,10 +33,10 @@ alias "esystem"="systemctl enable"
 export HISTTIMEFORMAT="%d/%m/%y %T"
 
 export PATH="/home/mj0ln1r/bin:/usr/local/bin:$PATH"
-export PATH="/home/mj0ln1r/miniconda3/bin:$PATH"
 export PATH="/home/mj0ln1r/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bro/bin:$PATH"
 export PATH="/usr/bin:$PATH"
+export PATH="/usr/sbin:$PATH"
 
 cat /home/mj0ln1r/Sys-Confs/term/boo_small.txt
