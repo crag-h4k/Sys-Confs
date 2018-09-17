@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-bro_depen="cmake make gcc g++ flex bison libpcap-dev libssl-dev python-dev swig zlib1g-dev sendmail "
+bro_depen="cmake make gcc g++ flex bison libpcap-dev libssl1.0-dev python-dev swig zlib1g-dev sendmail "
 # may need to install libssl1.0-dev  for bro
 apt update -y
 apt upgrade -y 
